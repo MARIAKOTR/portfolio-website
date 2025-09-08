@@ -1,9 +1,9 @@
 // Background slideshow with adaptive contrast
 const images = [
-  "images/kaboompics_warm-floral-backgrounds-with-soft-natural-light-40261.jpg",
-  "images/kaboompics_colorful-flower-market-backgrounds-with-peonies-alliums-and-gerberas-39435.jpg",
-  "images/kaboompics_minimalist-flower-backgrounds-floral-compositions-white-fabric-abstract-30236.jpg",
-  "images/kaboompics_warm-floral-backgrounds-with-soft-natural-light-38627.jpg"
+  "kaboompics_warm-floral-backgrounds-with-soft-natural-light-40261.jpg",
+  "kaboompics_colorful-flower-market-backgrounds-with-peonies-alliums-and-gerberas-39435.jpg",
+  "kaboompics_minimalist-flower-backgrounds-floral-compositions-white-fabric-abstract-30236.jpg",
+  "kaboompics_warm-floral-backgrounds-with-soft-natural-light-38627.jpg"
 ];
 for (let i=images.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[images[i],images[j]]=[images[j],images[i]];}
 const bg=document.querySelector('.bg');
